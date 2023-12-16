@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excel Sheet Display</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+      }
+      .container {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        color: #333;
+        margin: 0;
+      }
+      .excel-embed {
+        border: none;
+        width: 90%; /* Adjust the width as necessary */
+        height: 90%; /* Adjust the height as necessary */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Excel Sheet</h1>
+      <iframe
+        width="1400"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+        src="https://onedrive.live.com/embed?resid=69A7C99F474E7F3F%218534&authkey=%21AGKyJLTozmz5wJU&em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+      ></iframe>
+    </div>
+  </body>
+</html>
